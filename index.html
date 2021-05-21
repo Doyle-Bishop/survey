@@ -4,33 +4,37 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Survey</title>
     </head>
     <body>
+       
         <h1 id="title">survey form</h1>
         <p>If you could spare a little time to fill my survey it would be helpful <br> How people can battle depression.</p>
 
-        <form action="" id="survey-form">
-            <label id="name-label" for="name">Name</label>
-            <input type="text" name="name" id="name" placeholder="Enter your name" required>
-            <label for="email" id="email-label">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter your email" required>
-            <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
-            <input type="number" name="age" id="age"  min="18" max="80" placeholder="Enter your age (optional)">
+        <div class="form-fold">
+            <form action="" id="survey-form">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+                <input type="number" name="age" id="age"  min="18" max="80" placeholder="Enter your age (optional)">
+    
+                <p>
+                    Which gender are you ?
+                </p>
+                <select name="gender" id="dropdown">
+                    <option disable selected value="choose">Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+    
+                <label>
+                    <input type="radio" name="opinion" id="">
+                </label>
+            </form>
+        </div>
 
-            <p>
-                Which gender are you ?
-            </p>
-            <select name="gender" id="dropdown">
-                <option disable selected value="choose">Select your gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-            </select>
-
-            <label>
-                <input type="radio" name="opinion" id="">
-            </label>
-        </form>
     </body>
 </html>
