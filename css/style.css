@@ -6,6 +6,11 @@
     font-size: 38px;
 }
 #form-fold{
-    border: 20px;
-    box-shadow: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-image: url(../images/how-to-cope-with-anxiety-and-depression-722x406.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
