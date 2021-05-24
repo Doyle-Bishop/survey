@@ -14,3 +14,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid rgba(0, 0, 0, 0.082);
+    box-shadow: black;
+}
