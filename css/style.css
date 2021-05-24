@@ -5,10 +5,6 @@
     text-transform: capitalize;
     font-size: 38px;
 }
-#form-fold{
-    display: flex;
-    flex-direction: column;
-}
 body{
     background-image: url(../images/how-to-cope-with-anxiety-and-depression-722x406.jpg);
     background-repeat: no-repeat;
@@ -20,4 +16,8 @@ body{
     padding: 20px 20px 20px 20px;
     border: 2px solid rgba(0, 0, 0, 0.082);
     box-shadow: black;
+}
+#name,#email,#age,#dropdown{
+    padding: 15px;
+    border-radius: 10px;
 }
