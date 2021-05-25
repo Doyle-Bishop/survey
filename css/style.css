@@ -27,6 +27,16 @@ label,option{
     font-size: 18px;
 }
 input-textarea{
-    min-height: 150px;
+    height: auto;
     width: 100%;
+}
+#submit{
+  width: 100px;
+  padding: 7px;
+  background:gray;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#button{
+    padding-top: 25px;    
 }
