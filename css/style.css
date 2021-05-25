@@ -26,3 +26,7 @@ body{
 label,option{
     font-size: 18px;
 }
+input-textarea{
+    min-height: 150px;
+    width: 100%;
+}
