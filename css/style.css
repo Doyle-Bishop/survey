@@ -20,3 +20,9 @@ body{
     padding: 15px;
     border-radius: 10px;
 }
+#name-label,#email-label,#number-label,p{
+    font-size: 24px;
+}
+label,option{
+    font-size: 18px;
+}
